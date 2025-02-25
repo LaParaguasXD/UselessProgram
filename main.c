@@ -27,6 +27,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         NULL, NULL, hInstance, NULL);
 
     if (!hwnd) return 0;
+    
+    /* Los botones y lo demás xd */
 
     CreateWindow("STATIC", "Este programa no hace nada", WS_VISIBLE | WS_CHILD,
                  50, 20, 200, 20, hwnd, NULL, hInstance, NULL);
